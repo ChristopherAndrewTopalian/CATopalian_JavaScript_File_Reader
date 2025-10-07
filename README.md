@@ -7,6 +7,12 @@ This JavaScript app allows the user to open text files, see and edit the text in
 
 ![002](src/media/textures/screenshots/002.PNG)
 
+---
+
+Use App: https://christopherandrewtopalian.github.io/CATopalian_JavaScript_File_Reader/CATopalian_JavaScript_File_Reader.html
+
+---
+
 ### How to Download this App
 1. Click the green Code Button on this github page
 2. Choose Download ZIP
