@@ -2,13 +2,11 @@
 
 function makeInterface()
 {
-    // make title
-    let theTitle = ce("div");
-    theTitle.textContent = "CATopalian JavaScript File Reader";
-    theTitle.style.marginBottom = 4 + 'px';
-    theTitle.style.fontSize = 28 + 'px';
-    theTitle.style.fontWeight = 'bold';
-    ba(theTitle);
+    ba(makeTitleOfApp());
+
+    //-//
+
+    ba(ce('br'));
 
     //-//
 
@@ -78,8 +76,8 @@ function makeInterface()
     // theOutput
     let theOutput = ce("textarea");
     theOutput.id = "theOutput";
-    theOutput.style.width = '100%';
-    theOutput.style.height = '75%';
+    theOutput.style.width = '95%';
+    theOutput.style.height = '150px';
     theOutput.style.padding = '4px 8px';
     theOutput.style.fontSize = 20 + 'px';
     theOutput.style.backgroundColor = 'rgb(0, 0, 0)';
@@ -88,9 +86,13 @@ function makeInterface()
 
     //-//
 
+    ba(ce('br'));
+
+    //-//
+
     let downloadButton = ce('button');
     downloadButton.textContent = 'Download';
-    downloadButton.style.float = 'right';
+    //downloadButton.style.float = 'right';
     downloadButton.onmouseover = function()
     {
         hoverSound();
@@ -123,7 +125,7 @@ function makeInterface()
 //----//
 
 // Dedicated to God the Father
-// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2025
+// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2026
 // https://github.com/ChristopherTopalian
 // https://github.com/ChristopherAndrewTopalian
 // https://sites.google.com/view/CollegeOfScripting
